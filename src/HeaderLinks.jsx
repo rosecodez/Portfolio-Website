@@ -7,11 +7,6 @@ export default function HeaderLinks() {
       <>
         <Row id='header-container'>
           <Row id='header-links-container'>
-            {/* <Col xl={2} lg={4} sm={6} id='header-link'>
-              <ScrollLink to='home' smooth={true} duration={500}>
-                Home
-              </ScrollLink>
-            </Col> */}
             <Col xl={2} lg={4} sm={6} id='header-link'>
               <ScrollLink to='projects' smooth={true} duration={500}>
                 Projects
@@ -27,11 +22,7 @@ export default function HeaderLinks() {
                 Skills
               </ScrollLink>
             </Col>
-            <Col xl={2} lg={4} sm={6} id='header-link'>
-              <ScrollLink to='contact' smooth={true} duration={500}>
-                Contact
-              </ScrollLink>
-            </Col>
+            
           </Row>
         </Row>
       </>

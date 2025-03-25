@@ -13,12 +13,11 @@ export default function About() {
                     </Row>
                     <Row className='about-text-row'>
                         <Col className='about-text'>
-                            Hello there! Allow me to share a bit more about myself.
+                            Hello there! 
                         </Col>
                     </Row>
                     <Row className='about-text-row'>
                         <Col className='about-text'>
-                            For twelve years, I immersed myself in my education career until I stumbled upon the world of software engineering. A friend, who happened to be a software engineer, introduced me to a curriculum, believing I might enjoy delving into the realm of programming. He was right - from the moment I embarked on this learning journey, I was captivated. Continuously expanding my skill set, crafting meticulously designed projects, and realizing the vastness of knowledge awaiting exploration, I've embraced a mindset where learning knows no bounds.
                         </Col>
                     </Row>
                     <Row className='about-text-row'>

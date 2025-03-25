@@ -46,36 +46,13 @@ export default function Skills() {
                         </Col>
                         <Col>
                             <div className='skill-container'>
-                                <img className='skills-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" alt='C#' />
-                                <p className='skills-text'>
-                                    C#
-                                </p>
-                            </div>
-                        </Col>
-                        <Col>
-                            <div className='skill-container'>
-                                <img className='skills-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt='TypeScript' />
-                                <p className='skills-text'>
-                                    TypeScript
-                                </p>
-                            </div>
-                        </Col>
-                        <Col>
-                            <div className='skill-container'>
                                 <img className='skills-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt='React' />
                                 <p className='skills-text'>
                                     React
                                 </p>
                             </div>
                         </Col>
-                        <Col>
-                            <div className='skill-container'>
-                                <img className='skills-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg" alt='Angular' />
-                                <p className='skills-text'>
-                                    Angular
-                                </p>
-                            </div>
-                        </Col>
+                        
                         <Col>
                             <div className='skill-container'>
                                 <img className='skills-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" alt='Vite' />
@@ -100,14 +77,7 @@ export default function Skills() {
                                 </p>
                             </div>
                         </Col>
-                        <Col>
-                            <div className='skill-container'>
-                                <img className='skills-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dot-net/dot-net-original.svg" alt='.NET' />
-                                <p className='skills-text'>
-                                    .NET
-                                </p>
-                            </div>
-                        </Col>
+                        
                         <Col>
                             <div className='skill-container'>
                                 <img className='skills-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt='node.js' />
@@ -116,6 +86,7 @@ export default function Skills() {
                                 </p>
                             </div>
                         </Col>
+                        
                         <Col>
                             <div className='skill-container'>
                                 <img className='skills-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt='MongoDB' />
@@ -126,9 +97,49 @@ export default function Skills() {
                         </Col>
                         <Col>
                             <div className='skill-container'>
-                                <img className='skills-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" alt='SQL Database' />
+                                <img className='skills-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" alt='PostgreSQL' />
                                 <p className='skills-text'>
-                                    SQL Database
+                                    PostgreSQL
+                                </p>
+                            </div>
+                        </Col>
+                        <Col>
+                            <div className='skill-container'>
+                                <img className='skills-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jest/jest-plain.svg" alt='Jest' />
+                                <p className='skills-text'>
+                                    Jest
+                                </p>
+                            </div>
+                        </Col>
+                        <Col>
+                            <div className='skill-container'>
+                                <img className='skills-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mocha/mocha-original.svg" alt='Mocha' />
+                                <p className='skills-text'>
+                                    Mocha
+                                </p>
+                            </div>
+                        </Col>
+                        <Col>
+                            <div className='skill-container'>
+                                <img className='skills-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt='TailwindCSS' />
+                                <p className='skills-text'>
+                                    TailwindCSS
+                                </p>
+                            </div>
+                        </Col>
+                        <Col>
+                            <div className='skill-container'>
+                                <img className='skills-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original.svg" />
+                                <p className='skills-text'>
+                                    Google Cloud
+                                </p>
+                            </div>
+                        </Col>
+                        <Col>
+                            <div className='skill-container'>
+                                <img className='skills-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" />
+                                <p className='skills-text'>
+                                    Docker
                                 </p>
                             </div>
                         </Col>

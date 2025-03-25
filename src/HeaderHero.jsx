@@ -12,7 +12,7 @@ export default function HeaderHero() {
                     </Col>
                     <Col md={12} lg={4} id='hero-text-container'>
                         <Col id='hero-title'>
-                            Hello, I'm Sarah,
+                            Hello, I'm Roxana,
                         </Col>
                         <Col id='hero-title'>
                             A Full Stack Software Engineer.
