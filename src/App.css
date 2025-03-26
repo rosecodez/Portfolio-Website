@@ -1,16 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
 /*HeaderLinks*/
 #header-container {
   background-color: #27296d;
   color: white;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  z-index: 1;
+  z-index: 100;
   overflow: hidden;
-  margin-right: 0px !important;
+  width: 100vw;
   position: fixed;
-  position: top;
+  top: 0;
   z-index:10;
-  width:100%;
 }
 
 @media(min-width: 992px) {
@@ -36,12 +44,18 @@
 /*HeaderHero*/
 #hero-section-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   background-image: linear-gradient(176deg, #27296d 70%, white calc(70% + 2px));
   padding-top: 1rem;
-  margin-right: 0px;
+  margin: 0;
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
 }
+
+
 
 @media(min-width: 992px) {
   #hero-image-container {
