@@ -6,16 +6,19 @@ import Projects from './Projects';
 import Skills from './Skills';
 import Footer from './Footer';
 
-function App() {
+import ScrollLinked from './ScrollLinked';
 
+function App() {
+  
   return (
     <>
-        <HeaderLinks />
-        <HeaderHero />
-        <Projects />
-        <About />
-        <Skills />
-        <Footer />
+      <ScrollLinked/>
+      <HeaderLinks />
+      <HeaderHero />
+      <Projects />
+      <About />
+      <Skills />
+      <Footer />
     </>
   )
 }

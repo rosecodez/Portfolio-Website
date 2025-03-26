@@ -249,6 +249,14 @@
 }
 
 /*All Componenets*/
+#scroll-indicator {
+  z-index: 1000;
+  background-color: transparent;
+  background-image: radial-gradient(transparent 1px, var(--background) 1px);
+  background-size: 4px 4px;
+  backdrop-filter: blur(3px);
+  mask: linear-gradient(#000 calc(100% - 20px), #0000);
+}
 #contact {
   /* background-color: rgb(175, 125, 172); */
   background-color: #27296d;
