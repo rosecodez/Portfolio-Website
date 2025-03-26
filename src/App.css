@@ -4,10 +4,13 @@
   color: white;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  top: 0px;
   z-index: 1;
   overflow: hidden;
   margin-right: 0px !important;
+  position: fixed;
+  position: top;
+  z-index:10;
+  width:100%;
 }
 
 @media(min-width: 992px) {
@@ -104,6 +107,11 @@
 #hero-subtitle {
   margin-top: 1rem;
   font-size: 2rem;
+}
+
+/*Home*/
+#home {
+  padding-top: 100px;
 }
 
 /*Projects*/
