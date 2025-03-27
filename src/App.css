@@ -68,7 +68,17 @@
   width: 20px;
   height: 20px;
 }
-
+@media (max-width: 1053px) {
+  #home {
+    padding-top: 60px;
+  }
+}
+@media (max-width: 1227px) {
+  #header-links-container {
+    display: flex;
+    font-size: 1.5rem;
+  }
+}
 /* tablet design */
 @media (max-width: 996px) {
   #header-container {
@@ -90,6 +100,10 @@
   #signature-image {
     margin-bottom: 1rem;
   }
+
+  #home {
+    padding-top: 100px;
+  }
 }
 
 /* desktop design */
@@ -99,7 +113,9 @@
     padding-bottom: 0;
     font-size: 1.5rem;
   }
-
+  #hero-section-container {
+    padding-top: 200px;
+  }
   #hero-image-container {
     display: flex;
     justify-content: end;
@@ -111,12 +127,6 @@
   }
 }
 
-@media (max-width: 1227px) {
-  #header-links-container {
-    display: flex;
-    font-size: 1.5rem;
-  }
-}
 
 /* mobile design */
 @media (max-width: 425px) {
