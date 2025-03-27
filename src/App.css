@@ -6,53 +6,6 @@
   width: 100%;
   z-index: 10;
   padding: 1.5rem 2rem;
-  padding-left: 90px;
-  padding-right: 150px;
-}
-
-@media (max-width: 768px) {
-  #header-container {
-    text-align: center;
-    padding: 2rem 1rem;
-  }
-
-  #signature-image {
-    margin-bottom: 1rem;
-  }
-}
-@media (max-width: 991px) {
-  #header-container {
-    text-align: center;
-    padding: 2rem 1rem;
-  }
-
-  #header-links-container {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    padding-top: 1rem;
-  }
-
-  #signature-image {
-    margin-bottom: 1rem;
-  }
-
-  #hero-image-container {
-    display: flex;
-    justify-content: center;
-    padding-right: 0;
-    margin-bottom: 1rem;
-  }
-
-  #hero-image {
-    margin-bottom: 0;
-    width: 90%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-  }
 }
 
 #signature-image {
@@ -68,6 +21,7 @@
   gap: 1.5rem;
   font-size: 1.5rem;
   justify-content: flex-end;
+  flex-wrap: wrap;
 }
 
 #header-link {
@@ -115,13 +69,35 @@
   height: 20px;
 }
 
+/* tablet design */
+@media (max-width: 996px) {
+  #header-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem;
+    height: auto;
+    text-align: center;
+  }
+
+  #header-links-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 1rem;
+  }
+
+  #signature-image {
+    margin-bottom: 1rem;
+  }
+}
+
+/* desktop design */
 @media (min-width: 992px) {
   #header-links-container {
     margin-left: auto;
+    padding-bottom: 0;
     font-size: 1.5rem;
-    display: flex;
-    justify-content: start;
-    padding-bottom: 50px;
   }
 
   #hero-image-container {
@@ -135,16 +111,20 @@
   }
 }
 
-@media(max-width: 1200px) {
+@media (max-width: 1227px) {
   #header-links-container {
     display: flex;
     font-size: 1.5rem;
-    padding-bottom: 50px;
   }
 }
-@media (max-width: 768px) {
+
+/* mobile design */
+@media (max-width: 425px) {
+  #header-container {
+    height: 475px;
+  }
+
   #hero-image-container {
-    display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -152,28 +132,22 @@
 
   #hero-image {
     max-width: 90%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
   }
 }
 
-/*HeaderHero*/
+@media (max-width: 500px) {
+  #hero-image {
+    width: 20rem;
+  }
+}
+
+
 #hero-section-container {
   display: flex;
   justify-content: center;
   align-items: center;
   background-image: linear-gradient(176deg, #27296d 70%, white calc(70% + 2px));
   padding-top: 200px;
-}
-
-@media(max-width: 500px) {
-  #hero-image {
-    margin-bottom: 0rem;
-    width: 20rem;
-    height: auto;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-  }
 }
 
 #hero-text-container {
