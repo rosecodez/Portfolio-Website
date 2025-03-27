@@ -13,6 +13,7 @@ function App() {
   return (
     <>
       <ScrollLinked/>
+      
       <HeaderLinks />
       <HeaderHero />
       <Projects />
