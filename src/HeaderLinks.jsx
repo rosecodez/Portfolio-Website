@@ -15,10 +15,11 @@ export default function HeaderLinks() {
           <ScrollLink to='projects' id='header-link' smooth={true} duration={500}>Projects</ScrollLink>
           <ScrollLink to='about' id='header-link' smooth={true} duration={500}>About</ScrollLink>
           <ScrollLink to='skills' id='header-link' smooth={true} duration={500}>Skills</ScrollLink>
-          <button id='download-resume'>
+          
+          <a href='path_to_file' download={Signature} id='download-resume'>
             <p>Resume</p>
             <img id="download-icon" src={DownloadIcon} alt="DownloadIcon" />
-          </button>
+          </a>
         </Col>
       </Row>
     </header>
