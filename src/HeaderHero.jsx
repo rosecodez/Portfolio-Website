@@ -36,7 +36,7 @@ export default function HeaderHero() {
 
     return (
         <div id='home'>
-            <Row id='hero-section-container'>
+            <div id='hero-section-container'>
                 <Col md={12} lg={2} id='hero-image-container'>
                     <img id='hero-image' src={HeroImage} alt='Decorative Image'></img>
                 </Col>
@@ -47,7 +47,7 @@ export default function HeaderHero() {
                         <h1 id='hero subtitle' className="h1">Thank you for visiting my site today!</h1>
                     </Col>
                 </Col>
-            </Row >
+            </div >
         </div>
     )
 }

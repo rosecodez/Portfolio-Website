@@ -6,7 +6,7 @@ import projectsArray from "./ProjectsArray";
 export default function Projects() {
 
     return (
-        <>
+        <div className='responsive-wrapper'>
             <div id='projects'>
                 <Row id='project-section-container'>
                     <Row id='about-title-row'>
@@ -50,6 +50,6 @@ export default function Projects() {
                     </div>
                 </Row>
             </div>
-        </>
+        </div>
     )
 }
