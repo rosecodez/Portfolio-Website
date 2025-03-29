@@ -6,11 +6,9 @@ import DownloadIcon from "./images/icons8-download-24.png";
 
 export default function HeaderLinks() {
   return (
-    <header className='responsive-wrapper' id="header-container">
-        <Col xs={12} md="auto" id="signature-col">
-          <img id="signature-image" src={Signature} alt="Signature" />
-        </Col>
-        <Col xs={12} md="auto" id="header-links-container" className="d-flex flex-wrap justify-content-end gap-3 mt-3 mt-md-0">
+    <header id="header-container">
+        <img id="signature-image" src={Signature} alt="Signature" />
+        <Col md="auto" id="header-links-container">
         
         {/* dropdown button visible below 1054px */}
         <div className="dropdown">
