@@ -28,6 +28,7 @@
 }
 
 #header-link {
+  transition: background-color 0.3s ease;
   cursor: pointer;
   padding: 5px;
   display: flex;
@@ -166,15 +167,32 @@
   }
 }
 
-
-
-
 #hero-section-container {
   display: flex;
   justify-content: center;
   align-items: center;
   background-image: linear-gradient(176deg, #27296d 70%, white calc(70% + 2px));
   padding-top: 200px;
+}
+
+#logos-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.contact-logos:hover {
+  background-color: rgb(211, 150, 207);
+  border-color: rgb(211, 150, 207);;
+  border-radius: 20px;
+  border-width: 20px;
+}
+.contact-logos {
+  transition: 
+    background-color 0.3s ease,
+    border-radius 0.3s ease,
+    border-color 0.3s ease,
+    border-width 0.3s ease;
+  margin: 10px;
 }
 
 #hero-text-container {
@@ -266,7 +284,7 @@
 }
 
 .tech-image {
-  width: 2rem !important;
+  height: 50px;
 }
 
 .project-card-links-container {
@@ -282,6 +300,7 @@
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
+  
 }
 .project-card-link {
   color: #27296d !important;
