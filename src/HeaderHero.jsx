@@ -38,7 +38,7 @@ export default function HeaderHero() {
         <div id='home'>
             <div id='hero-section-container'>
                 <Col md={12} lg={2} id='hero-image-container'>
-                  <img id='hero-image' src={HeroImage} alt='Decorative Image'></img>
+                  <img id='hero-image' src='https://res.cloudinary.com/dbmnceulk/image/upload/v1743635518/profile_swh5a2.jpg' alt='Decorative Image'></img>
                 </Col>
                 <Col md={12} lg={4} id='hero-text-container' ref={containerRef}>
                   <Col>
