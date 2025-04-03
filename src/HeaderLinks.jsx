@@ -5,13 +5,17 @@ import DownloadIcon from "./images/icons8-download-24.png";
 export default function HeaderLinks() {
   function displayMenu() {
     const hamburgerMenu = document.getElementById("hamburger-menu");
-    if (hamburgerMenu.style.display === "flex") {
-      hamburgerMenu.style.display = "none";
-    } else {
-      hamburgerMenu.style.display = "flex";
+    if (!hamburgerMenu) {
+      return
     }
+    hamburgerMenu.classList.toggle("show");
   }
   
+  function hideMenu() {
+    const hamburgerMenu = document.getElementById("hamburger-menu");
+    hamburgerMenu.classList.remove("active");
+  }
+
   return (
     <header id="header-container">
       <div id='menu'>
@@ -38,9 +42,9 @@ export default function HeaderLinks() {
       
       {/* dropdown button visible below 1054px */}
       <ul id='hamburger-menu'>
-        <li><ScrollLink to='projects' id='hamburger-link'  smooth={true} duration={500}>Projects</ScrollLink></li>
-        <li><ScrollLink to='about' id='hamburger-link' smooth={true} duration={500} >About</ScrollLink></li>
-        <li><ScrollLink to='skills' id='hamburger-link' smooth={true} duration={500} >Skills</ScrollLink></li>
+        <li><ScrollLink to='projects' id='hamburger-link' onClick={hideMenu} smooth={true} duration={500}>Projects</ScrollLink></li>
+        <li><ScrollLink to='about' id='hamburger-link' onClick={hideMenu} smooth={true} duration={500}>About</ScrollLink></li>
+        <li><ScrollLink to='skills' id='hamburger-link' onClick={hideMenu} smooth={true} duration={500}>Skills</ScrollLink></li>
       </ul>
     </header>
     

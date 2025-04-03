@@ -1,3 +1,7 @@
+html, body {
+  overflow-x: hidden;
+}
+
 #header-container {
   background-color: #27296d;
   color: white;
@@ -15,7 +19,7 @@
 #signature-image {
   width: 100%;
   box-sizing: border-box;
-  min-width: 400px;
+  min-width: 350px;
   max-width: 500px;
   object-fit: cover;
   height: auto;
@@ -61,18 +65,37 @@
   box-shadow: rgba(0, 0, 0, 0.1) 2px 2px 6px;
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
+
 #menu {
   display: flex;
   flex-wrap: wrap;
 }
 
-#hamburger-menu{
+#hamburger-menu {
   display: none;
   list-style: none;
   flex-direction: column;
   align-items: center;
   font-size: 1.5rem;
   gap: 7px;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+#hamburger-menu.show {
+  display: flex;
+}
+@media (min-width: 1286px) {
+  #hamburger-menu {
+    display: none;
+  }
+}
+
+@media (min-width: 1286px) {
+  #hamburger-menu {
+    display: none !important;
+  }
 }
 
 #menu-btn {
@@ -110,8 +133,8 @@
 }
 
 #hero-image {
-  max-width: 400px;
-  min-height: 300px;
+  max-width: 300px;
+  min-height: 200px;
   height: auto;
   display: block;
   object-fit: cover;
@@ -139,12 +162,12 @@
 
 
 /* tablet design */
-@media (max-width: 1013px) {
+@media (max-width: 1028px) {
   #menu {
-    padding-bottom: 30px;
     display: flex;
     justify-content: center;
   }
+
   #header-container {
     justify-content: center;
     padding-bottom: 50px;
