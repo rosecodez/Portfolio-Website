@@ -141,6 +141,16 @@ export default function Skills() {
                         </Col>
                         <Col>
                             <div className='skill-container'>
+                                <a href='https://vitest.dev/'>
+                                    <img className='skills-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitest/vitest-original.svg" alt='Jest' />
+                                    <p className='skills-text'>
+                                        Jest
+                                    </p>
+                                </a>
+                            </div>
+                        </Col>
+                        <Col>
+                            <div className='skill-container'>
                                 <a href='https://mochajs.org/'>
                                     <img className='skills-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mocha/mocha-original.svg" alt='Mocha' />
                                     <p className='skills-text'>
@@ -176,6 +186,86 @@ export default function Skills() {
                                     <img className='skills-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" />
                                     <p className='skills-text'>
                                         Docker
+                                    </p>
+                                </a>
+                            </div>
+                        </Col>
+                        <Col>
+                            <div className='skill-container'>
+                                <a href='https://www.postman.com/'>
+                                    <img className='skills-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" />
+                                    <p className='skills-text'>
+                                        Postman
+                                    </p>
+                                </a>
+                            </div>
+                        </Col>
+                        <Col>
+                            <div className='skill-container'>
+                                <a href='https://www.prisma.io/?via=start&gad_source=1&gclid=Cj0KCQjwhr6_BhD4ARIsAH1YdjCsYtWjjHgKdmHPAhdP32OzijxIjXsjiNQY9NmU_zAG8aMHXgbhHaQaAsy4EALw_wcB'>
+                                    <img className='skills-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original.svg" />
+                                    <p className='skills-text'>
+                                        Prisma
+                                    </p>
+                                </a>
+                            </div>
+                        </Col>
+                        <Col>
+                            <div className='skill-container'>
+                                <a href='https://www.npmjs.com/'>
+                                    <img className='skills-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg" />
+                                    <p className='skills-text'>
+                                        npm
+                                    </p>
+                                </a>
+                            </div>
+                        </Col>
+                        <Col>
+                            <div className='skill-container'>
+                                <a href='https://github.com/'>
+                                    <img className='skills-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+                                    <p className='skills-text'>
+                                        GitHub
+                                    </p>
+                                </a>
+                            </div>
+                        </Col>
+                        <Col>
+                            <div className='skill-container'>
+                                <a href='https://babeljs.io/'>
+                                    <img className='skills-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/babel/babel-original.svg" />
+                                    <p className='skills-text'>
+                                        Babel
+                                    </p>
+                                </a>
+                            </div>
+                        </Col>
+                        <Col>
+                            <div className='skill-container'>
+                                <a href='https://stackoverflow.com/questions'>
+                                    <img className='skills-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/stackoverflow/stackoverflow-original.svg" />
+                                    <p className='skills-text'>
+                                        Stackoverflow
+                                    </p>
+                                </a>
+                            </div>
+                        </Col>
+                        <Col>
+                            <div className='skill-container'>
+                                <a href='https://www.notion.com/'>
+                                    <img className='skills-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/notion/notion-original.svg" />
+                                    <p className='skills-text'>
+                                        Notion
+                                    </p>
+                                </a>
+                            </div>
+                        </Col>
+                        <Col>
+                            <div className='skill-container'>
+                                <a href='https://en.wikipedia.org/wiki/Bash_(Unix_shell)'>
+                                    <img className='skills-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg" />
+                                    <p className='skills-text'>
+                                        Bash
                                     </p>
                                 </a>
                             </div>
