@@ -1,6 +1,7 @@
 import { Link as ScrollLink } from 'react-scroll';
 import Signature from "../src/images/signature.png";
 import DownloadIcon from "./images/icons8-download-24.png";
+import Resume from "./assets/Roxana_Dandu_Resume.pdf";
 
 export default function HeaderLinks() {
   function displayMenu() {
@@ -32,7 +33,7 @@ export default function HeaderLinks() {
           <ScrollLink to='about' id='header-link' smooth={true} duration={500}>About</ScrollLink>
           <ScrollLink to='skills' id='header-link' smooth={true} duration={500}>Skills</ScrollLink>
           
-          <a href={`${import.meta.env.BASE_URL}assets/Roxana_Dandu_Resume.pdf`} download id="download-resume">
+          <a href={Resume} download="Roxana_Dandu_Resume.pdf" id="download-resume">
             <p>Resume</p>
             <img className="download-icon" src={DownloadIcon} alt="DownloadIcon" />
           </a>
