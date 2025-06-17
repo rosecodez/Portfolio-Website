@@ -32,10 +32,11 @@ export default function HeaderLinks() {
           <ScrollLink to='about' id='header-link' smooth={true} duration={500}>About</ScrollLink>
           <ScrollLink to='skills' id='header-link' smooth={true} duration={500}>Skills</ScrollLink>
           
-          <a href='path_to_file' download={Signature} id='download-resume'>
+          <a href={`${import.meta.env.BASE_URL}assets/Roxana_Dandu_Resume.pdf`} download id="download-resume">
             <p>Resume</p>
             <img className="download-icon" src={DownloadIcon} alt="DownloadIcon" />
           </a>
+
         </div>
 
       </div>
