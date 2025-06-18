@@ -33,7 +33,7 @@ export default function About() {
                     </Row>
                     <Row className='about-text-row'>
                         <Col className='about-text'>
-                            From idea to launch, I love designing and developing websites, whether for myself, others, or future employers. If you're curious about my work, want to collaborate, or are interested in hiring me, feel free to reach out through the contact form below.
+                            From idea to launch, I love designing and developing websites, whether for myself, others, or future employers. If you're curious about my work, want to collaborate, or are interested in hiring me, feel free to reach out through the contact form above.
                         </Col>
                     </Row>
                     <Row className='about-text-row'>
