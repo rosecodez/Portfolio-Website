@@ -1,7 +1,7 @@
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-export default function Skills() {
+export default function Skills(): JSX.Element {
     return (
         <>
             <div id='skills'>

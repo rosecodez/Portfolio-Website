@@ -1,14 +1,13 @@
 /* eslint-disable react/no-unescaped-entities */
-import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import HeroImage from './images/heroimage.png';
 
 import { animate, stagger } from "motion"
 import { splitText } from "motion-plus"
 import { useEffect, useRef } from "react"
 
-export default function HeaderHero() {
-    const containerRef = useRef(null)
+export default function HeaderHero(): JSX.Element {
+  const containerRef = useRef<HTMLDivElement>(null);
+
 
     useEffect(() => {
         document.fonts.ready.then(() => {
@@ -27,7 +26,7 @@ export default function HeaderHero() {
                 type: "spring",
                 duration: 2,
                 bounce: 0,
-                delay: stagger(0.05, { start: i * 0.3 }),
+                delay: (index: number) => i * 0.3 + index * 0.05,
               }
             );
           });

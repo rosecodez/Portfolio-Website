@@ -3,7 +3,7 @@ import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import projectsArray from "./ProjectsArray";
 
-export default function Projects() {
+export default function Projects(): JSX.Element {
 
     return (
         <div id='projects'>

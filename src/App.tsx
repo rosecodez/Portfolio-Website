@@ -6,6 +6,7 @@ import Projects from './Projects';
 import Skills from './Skills';
 import Footer from './Footer';
 import ScrollLinked from './ScrollLinked';
+import React from "react";
 
 function App() {
   

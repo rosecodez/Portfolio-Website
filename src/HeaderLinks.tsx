@@ -2,7 +2,7 @@ import { Link as ScrollLink } from 'react-scroll';
 import Signature from "../src/images/signature.png";
 import DownloadIcon from "./images/icons8-download-24.png";
 
-export default function HeaderLinks() {
+export default function HeaderLinks(): JSX.Element {
   function displayMenu() {
     const hamburgerMenu = document.getElementById("hamburger-menu");
     if (!hamburgerMenu) {

@@ -1,6 +1,6 @@
 import { motion, useScroll } from "motion/react"
 
-export default function ScrollLinked() {
+export default function ScrollLinked(): JSX.Element {
     const { scrollYProgress } = useScroll()
 
     return (
