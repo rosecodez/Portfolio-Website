@@ -1,7 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+import "tailwindcss/tailwind.css";
 html, body {
   overflow-x: hidden;
 }
+.app-container {
+  min-height: 100vh;
+  background-color: var(--base-100); 
+  color: var(--base-content);        
+  transition: background-color 0.3s, color 0.3s;
+}
 
+button, .toggle {
+  background-color: var(--base-200);
+  color: var(--base-content);
+  border: 1px solid var(--base-content);
+  transition: all 0.3s;
+}
+
+:root {
+  --bg: #ffffff;
+  --text: #000000;
+}
+
+[data-theme="dark"] {
+  --bg: #1a1a1a;
+  --text: #f5f5f5;
+}
+
+.app-container {
+  min-height: 100vh;
+  background-color: var(--bg);
+  color: var(--text);
+  transition: background-color 0.3s, color 0.3s;
+}
 #header-container {
   background-color: #27296d;
   color: white;
@@ -361,7 +394,6 @@ html, body {
 .project-card-link {
   color: #27296d !important;
   text-decoration: underline;
-  /* font-weight: bold; */
   font-size: 1.25rem;
 }
 
@@ -375,7 +407,6 @@ html, body {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  /* border-top: double 10px rgb(175, 125, 172); */
   border-top: double 10px rgb(211, 150, 207);
   padding-top: 2rem;
 }
@@ -431,7 +462,6 @@ html, body {
   mask: linear-gradient(#000 calc(100% - 20px), #0000);
 }
 #contact {
-  /* background-color: rgb(175, 125, 172); */
   background-color: #27296d;
   padding-top: .25rem;
   padding-bottom: 2rem;
@@ -473,8 +503,6 @@ html, body {
 }
 
 #contact-button {
-  /* background-color: #27296d; */
-  /* background-color: rgb(175, 125, 172); */
   background-color: rgb(211, 150, 207);
   font-weight: bold;
   /* color: white; */
@@ -490,16 +518,16 @@ html, body {
 
 /*Footer*/
 #footer-container {
-  /* background-color: rgb(175, 125, 172); */
   background-color: rgb(211, 150, 207);
-  /* background-color: #27296d; */
   padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 25px;
 }
 
 #footer-text {
-  /* color: white; */
   color: #27296d;
-  font-size: 1.5rem;
-  font-weight: bold;
+  font-size: 20px;
   text-align: center;
 }

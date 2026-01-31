@@ -1,9 +1,9 @@
-import ThemeToggleButton from "./ThemeToggleButton"
+import ThemeToggleButton from "./ThemeToggleButtons"
 export default function Footer() {
     return (
         <div id="footer-container">
             <div id='footer-text'>
-                Thank you for viewing my portfolio site today!
+                Have a great day!
             </div>
             <ThemeToggleButton />
         </div>
