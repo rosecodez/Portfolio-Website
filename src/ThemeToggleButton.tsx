@@ -11,8 +11,23 @@ const ThemeToggleButton: React.FC= () => {
     localStorage.setItem("theme", theme);
   }, [isDark]);
 
+   const checkboxStyle: React.CSSProperties = {
+    width: "40px",
+    height: "20px",
+    cursor: "pointer",
+    accentColor: "var(--primary-color)",
+    transition: "accent-color 0.3s ease",
+  };
+  
   return (
-    <label className="flex cursor-pointer gap-2 items-center">
+    <label
+      style={{
+        display: "flex",
+        alignItems: "center",
+        gap: "8px",
+        cursor: "pointer",
+      }}
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="20"
@@ -32,7 +47,7 @@ const ThemeToggleButton: React.FC= () => {
         type="checkbox"
         checked={isDark}
         onChange={() => setIsDark(!isDark)}
-        className="toggle theme-controller"
+        style={checkboxStyle}
       />
 
       <svg
