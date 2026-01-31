@@ -1,6 +1,7 @@
 import { Link as ScrollLink } from 'react-scroll';
 import Signature from "../src/images/signature.png";
 import DownloadIcon from "./images/icons8-download-24.png";
+import ThemeToggleButton from "./ThemeToggleButton";
 
 export default function HeaderLinks(): JSX.Element {
   function displayMenu() {
@@ -27,7 +28,7 @@ export default function HeaderLinks(): JSX.Element {
           <button type="button" id='menu-btn' onClick={displayMenu}>
             <img width="40" height="40" src="https://img.icons8.com/ios/50/menu--v7.png" alt="menu--v7"/>
           </button>
-
+          <ThemeToggleButton />
           <ScrollLink to='projects' id='header-link' smooth={true} duration={500}>Projects</ScrollLink>
           <ScrollLink to='about' id='header-link' smooth={true} duration={500}>About</ScrollLink>
           <ScrollLink to='skills' id='header-link' smooth={true} duration={500}>Skills</ScrollLink>
