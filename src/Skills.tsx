@@ -110,6 +110,17 @@ export default function Skills(): JSX.Element {
                         
                         <Col>
                             <div className='skill-container'>
+                                <a href='https://ejs.co/'>
+                                    <img className='skills-icon' src="https://img.icons8.com/?size=100&id=puL87ypQPxxr&format=png&color=000000" alt='EJS' />
+                                    <p className='skills-text'>
+                                        EJS
+                                    </p>
+                                </a>
+                            </div>
+                        </Col>
+
+                        <Col>
+                            <div className='skill-container'>
                                 <a href='https://www.mongodb.com/'>
                                     <img className='skills-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt='MongoDB' />
                                     <p className='skills-text'>
@@ -210,6 +221,18 @@ export default function Skills(): JSX.Element {
                                 </a>
                             </div>
                         </Col>
+
+                        <Col>
+                            <div className='skill-container'>
+                                <a href='https://img.icons8.com/?size=100&id=17842&format=png&color=000000'>
+                                    <img className='skills-icon' src="https://img.icons8.com/?size=100&id=17842&format=png&color=000000" />
+                                    <p className='skills-text'>
+                                        Linux
+                                    </p>
+                                </a>
+                            </div>
+                        </Col>
+
                         <Col>
                             <div className='skill-container'>
                                 <a href='https://www.npmjs.com/'>
