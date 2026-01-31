@@ -263,6 +263,9 @@ button, .toggle {
   background-image: linear-gradient(176deg, #27296d 70%, white calc(70% + 2px));
   padding-top: 200px;
 }
+html[data-theme="dark"] #hero-section-container {
+  background-image: linear-gradient(176deg, #27296d 70%, #181818ad calc(70% + 2px));
+}
 
 #logos-container {
   display: flex;
@@ -349,7 +352,14 @@ button, .toggle {
   align-items: center;
   flex-wrap: wrap;
 }
-
+.skill-container a {
+  text-decoration: none;
+}
+.skill-container a, .about-text col{
+  color: inherit;
+  
+}
+#skills 
 #project-description1 {
   margin-bottom: 1rem;
 }
@@ -412,8 +422,7 @@ button, .toggle {
 }
 
 .about-text {
-  color: #27296d;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 /*Projects*/
