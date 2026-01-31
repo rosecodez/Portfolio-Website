@@ -2,53 +2,9 @@ html, body {
   overflow-x: hidden;
 }
 
-/* Dark / Light themes */
-body {
-  background-color: var(--bg-color);
-  color: var(--text-color);
-  font-family: sans-serif;
-  overflow-x: hidden;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-#download-resume,
-#contact-button,
-.contact-logos:hover,
-.project-card-link:hover {
-  background-color: var(--primary-color);
-  color: var(--text-color);
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.toggle.theme-controller {
-  width: 40px;
-  height: 20px;
-  cursor: pointer;
-  accent-color: var(--primary-color);
-  transition: accent-color 0.3s ease;
-}
-
-[data-theme="light"] {
-  --bg-color: #ffffff;
-  --text-color: #27296d;
-  --primary-color: rgb(211, 150, 207);
-  --secondary-color: #f0e8ff;
-  --header-bg: #27296d;
-  --hero-bg: linear-gradient(176deg, #27296d 70%, white calc(70% + 2px));
-}
-
-[data-theme="dark"] {
-  --bg-color: #111111;
-  --text-color: #f3f4f6;
-  --primary-color: rgb(211, 150, 207);
-  --secondary-color: #3b82f6;
-  --header-bg: #1b1b2f;
-  --hero-bg: linear-gradient(176deg, #1b1b2f 70%, #222 72%);
-}
-
-/* containers */
 #header-container {
-  background-color: var(--header-bg);
-  color: var(--text-color);
+  background-color: #27296d;
+  color: white;
   position: fixed;
   top: 0;
   width: 100%;
@@ -58,9 +14,7 @@ body {
   flex-wrap: wrap;
   padding-right: 180px;
   padding-left: 120px;
-  transition: background-color 0.3s ease, color 0.3s ease;
 }
-
 
 #signature-image {
   width: 100%;
